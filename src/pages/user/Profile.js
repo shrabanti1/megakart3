@@ -28,7 +28,7 @@ const Profile = () => {
     e.preventDefault();
     try {
       const { data } = await axios.put(
-        "http://shopnow-5f1x.onrender.com:8080/api/v1/auth/profile",
+        "https://shopnow-5f1x.onrender.com:8080/api/v1/auth/profile",
         {
           name,
           email,
