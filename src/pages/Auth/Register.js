@@ -18,7 +18,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://shopnow-5f1x.onrender.com:8080/api/v1/auth/register",
+        "https://shopnow-5f1x.onrender.com/api/v1/auth/register",
         {
           name,
           email,
