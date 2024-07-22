@@ -22,7 +22,7 @@ const CreateProduct = () => {
   const getAllCategory = async () => {
     try {
       const { data } = await axios.get(
-        "https://shopnow-5f1x.onrender.com:8080/api/v1/category/get-category"
+        "https://shopnow-5f1x.onrender.com/api/v1/category/get-category"
       );
       if (data?.success) {
         setCategories(data?.category);
@@ -49,7 +49,7 @@ const CreateProduct = () => {
       productData.append("photo", photo);
       productData.append("category", category);
       const { data } = axios.post(
-        "https://shopnow-5f1x.onrender.com:8080/api/v1/product/create-product",
+        "https://shopnow-5f1x.onrender.com/api/v1/product/create-product",
         productData
       );
       if (data?.success) {
