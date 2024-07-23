@@ -18,7 +18,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://shopnow-5f1x.onrender.com/api/v1/auth/register",
+        "https://fullstackbackend-1-v8m0.onrender.com/api/v1/auth/register",
         {
           name,
           email,
