@@ -1,7 +1,6 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://shrabanti1.github.io/megakart3",
   "proxy": "https://shopnow-5f1x.onrender.com",
   "private": true,
   "dependencies": {
@@ -34,8 +33,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
